@@ -1,0 +1,136 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.whole
+{
+    
+    margin:auto;
+    width:100%;
+    height: 100vh;
+    padding: 40px 35px 35px 35px;
+    
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+
+}
+.login-div {
+    margin:auto;
+    width:430px;
+    height: 700px;
+    padding: 50px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+  }
+
+.fields {
+    width: 100%;
+    padding: 45px 5px 5px 5px;
+  }
+  .fields input {
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding:20px 10px 20px 5px;
+  }
+  .email, .password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+  }
+  .gmail-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:45%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #cf2f24;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  .facebook-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:45%;
+    float:right;
+    margin-top:-60px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #2435cf;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  .signup-button {
+    outline: none;
+    border:none;
+    cursor: pointer;
+    width:100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    text-align: center;
+    background: #24cfa4;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;
+    transition: 0.5s;
+  }
+  .signin-button:hover {
+    background:#2fdbb6;
+  }
+  .signup-button:active {
+    background:#1da88a;
+  }
+  .link {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .link a {
+    text-decoration: none;
+    color:#aaa;
+    font-size: 15px;
+  }
+  .title {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+    font-family:algerian;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+  .methods {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2px;
+    letter-spacing: 0.5px;
+    
+  }
